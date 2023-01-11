@@ -27,7 +27,11 @@ const AboutMe = () => {
                     a{' '}
                     <Typed
                       className="text-white text-6xl"
-                      strings={['Front End Developer.', 'React Js Developer.']}
+                      strings={[
+                        'Front End Developer.',
+                        'React Js Developer.',
+                        'Figma Expert',
+                      ]}
                       typeSpeed={24}
                       backSpeed={50}
                       loop
