@@ -5,7 +5,7 @@ import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { FaFacebookF, FaReact } from 'react-icons/fa'
 import { TbBrandTailwind } from 'react-icons/tb'
 import { IoLogoJavascript } from 'react-icons/io'
-import Typed from 'react-typed'
+// import Typed from 'react-typed'
 
 const AboutMe = () => {
   return (
@@ -25,7 +25,7 @@ const AboutMe = () => {
                   </h1>
                   <div className="text-6xl font-bold text-white pt-5">
                     a{' '}
-                    <Typed
+                    {/* <Typed
                       className="text-white text-6xl"
                       strings={[
                         'Front End Developer.',
@@ -35,7 +35,7 @@ const AboutMe = () => {
                       typeSpeed={24}
                       backSpeed={50}
                       loop
-                    />
+                    /> */}
                   </div>
                   <h2 className="text-[#c4cfde] pt-5 text-lg font-medium lg:w-[85%]">
                     As a front-end developer, I have skilled in creating
