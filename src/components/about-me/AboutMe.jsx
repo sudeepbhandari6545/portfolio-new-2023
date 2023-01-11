@@ -1,11 +1,10 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import { Col, Row } from 'antd'
 import React from 'react'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { FaFacebookF, FaReact } from 'react-icons/fa'
 import { TbBrandTailwind } from 'react-icons/tb'
 import { IoLogoJavascript } from 'react-icons/io'
-// import Typed from 'react-typed'
+import Typed from 'react-typed'
 
 const AboutMe = () => {
   return (
@@ -25,7 +24,7 @@ const AboutMe = () => {
                   </h1>
                   <div className="text-6xl font-bold text-white pt-5">
                     a{' '}
-                    {/* <Typed
+                    <Typed
                       className="text-white text-6xl"
                       strings={[
                         'Front End Developer.',
@@ -35,7 +34,7 @@ const AboutMe = () => {
                       typeSpeed={24}
                       backSpeed={50}
                       loop
-                    /> */}
+                    />
                   </div>
                   <h2 className="text-[#c4cfde] pt-5 text-lg font-medium lg:w-[85%]">
                     As a front-end developer, I have skilled in creating
@@ -109,20 +108,6 @@ const AboutMe = () => {
                     className=" absolute mt-[-50px] h-[670px] w-[100%] object-contain"
                   />
                 </div>
-                {/* <div className="">
-                  <img
-                    width="700"
-                    height="960"
-                    src="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png"
-                    class="attachment-full size-full"
-                    alt="Banner image 01"
-                    decoding="async"
-                    loading="lazy"
-                    srcset="https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png 700w, https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01-219x300.png 219w"
-                    sizes="(max-width: 700px) 100vw, 700px"
-                  />
-               
-                </div> */}
               </div>
             </Col>
           </Row>
