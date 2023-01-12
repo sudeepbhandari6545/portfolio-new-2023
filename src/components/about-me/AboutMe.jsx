@@ -10,11 +10,11 @@ const AboutMe = () => {
   return (
     <>
       <div className="bg-[#212428] py-6 px-5 overflow-hidden">
-        <div className="max-w-[110rem] mx-auto">
-          <Row gutter={12}>
+        <div className="max-w-[100rem] mx-auto">
+          <Row gutter={6}>
             <Col lg={14}>
               <div>
-                <div className="px-16 pt-16">
+                <div className=" pt-16">
                   <h1 className=" uppercase text-[#c4cfde] text-sm font-medium">
                     WELCOME TO MY WORLD
                   </h1>
@@ -98,7 +98,7 @@ const AboutMe = () => {
               </div>
             </Col>
             <Col lg={10}>
-              <div>
+              <div className="flex justify-end">
                 <div className="bg-[#22262A] h-[68vh] w-[28vw] mt-36 image_background shadow-2xl rounded-md flex items-center justify-center">
                   <img
                     src={
