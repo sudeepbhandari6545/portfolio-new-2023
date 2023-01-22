@@ -90,19 +90,16 @@ const NavBars = () => {
         <div className="pt-5 flex items-center gap-4">
           <div className="bg-[#22262A] p-3 rounded-lg shadow-lg">
             <a href="/">
-              {' '}
               <FaFacebookF size={20} color="white" />
             </a>
           </div>
           <div className="bg-[#22262A] p-3 rounded-lg shadow-lg">
             <a href="/">
-              {' '}
               <AiFillGithub size={20} color="white" />
             </a>
           </div>
           <div className="bg-[#22262A] p-3 rounded-lg shadow-lg">
             <a href="/">
-              {' '}
               <AiFillLinkedin size={20} color="white" />
             </a>
           </div>

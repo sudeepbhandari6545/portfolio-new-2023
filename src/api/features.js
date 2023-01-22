@@ -2,7 +2,8 @@ export const features = [
   {
     id: 1,
     title: 'Website Development',
-    image: '',
+    icon:
+      'https://w7.pngwing.com/pngs/964/1019/png-transparent-web-development-web-design-software-development-web-developer-web-design-web-design-text-logo.png',
     detail:
       'I will handel everything(front-end) from to website development process until it is time to make your project live.',
   },

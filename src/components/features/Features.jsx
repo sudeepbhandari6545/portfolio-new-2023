@@ -17,12 +17,13 @@ const Features = () => {
             <Row gutter={24}>
               {features &&
                 features.map((item) => {
+                  console.log(item)
                   return (
                     <>
-                      <Col lg={8} className="my-5">
+                      <Col lg={8} className="my-8">
                         <FeatureCards
                           title={item.title}
-                          image={item.image}
+                          icon={item.icon}
                           detail={item.detail}
                         />
                       </Col>

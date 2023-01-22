@@ -12,3 +12,15 @@
 .ant-drawer .ant-drawer-close {
   display: none !important;
 }
+.ant-tabs-tab {
+  border: 1px solid #212428 !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  font-size: 24px !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  margin: 40px !important;
+}
+/* ant-tabs >.ant-tabs-nav .ant-tabs-nav-list */

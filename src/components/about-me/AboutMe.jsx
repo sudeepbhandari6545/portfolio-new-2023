@@ -12,25 +12,21 @@ const AboutMe = () => {
       <div className="bg-[#212428] py-6 px-5 overflow-hidden">
         <div className="max-w-[100rem] mx-auto">
           <Row gutter={6}>
-            <Col lg={14}>
+            <Col xs={24} sm={24} md={24} lg={14}>
               <div>
-                <div className=" pt-16">
+                <div className="">
                   <h1 className=" uppercase text-[#c4cfde] text-sm font-medium">
                     WELCOME TO MY WORLD
                   </h1>
-                  <h1 className="text-6xl font-bold text-white pt-5">
-                    Hi, I’m{' '}
+                  <h1 className="text-xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-white pt-5">
+                    Hi, I’m
                     <span className="text-[#ff014f]">Sudeep Bhandari</span>
                   </h1>
-                  <div className="text-6xl font-bold text-white pt-5">
+                  <div className="text-xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-white pt-5">
                     a{' '}
                     <Typed
-                      className="text-white text-6xl"
-                      strings={[
-                        'Front End Developer.',
-                        'React Js Developer.',
-                        'Figma Expert',
-                      ]}
+                      className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold "
+                      strings={['Front End Developer.', 'React Js Developer.']}
                       typeSpeed={24}
                       backSpeed={50}
                       loop
@@ -44,50 +40,44 @@ const AboutMe = () => {
                     functional and visually appealing interfaces.
                   </h2>
 
-                  <div className="flex items-center gap-56 pt-24">
+                  <div className="grid md:flex gap-16 md:gap-32 items-center  pt-12 md:pt-20">
                     <div>
                       <div className="">
                         <h1 className="text-[#c4cfde] uppercase py-2 font-medium">
                           Find with me
                         </h1>
                         <div className="pt-2 flex items-center gap-5">
-                          <div className="bg-[#22262A] p-3 rounded-xl shadow-2xl">
+                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-xl shadow-2xl">
                             <a href="/">
-                              {' '}
                               <FaFacebookF size={32} color="white" />
                             </a>
                           </div>
-                          <div className="bg-[#22262A] p-3 rounded-xl shadow-2xl">
+                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-xl shadow-2xl">
                             <a href="/">
-                              {' '}
                               <AiFillGithub size={32} color="white" />
                             </a>
                           </div>
-                          <div className="bg-[#22262A] p-3 rounded-xl shadow-2xl">
+                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-xl shadow-2xl">
                             <a href="/">
-                              {' '}
                               <AiFillLinkedin size={32} color="white" />
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div>
+                    <div className=" md:pt-0">
                       <div className="">
                         <h1 className="text-[#c4cfde] uppercase py-2 font-medium">
                           Best Skill on
                         </h1>
                         <div className="pt-2 flex items-center gap-5">
-                          <div className="bg-[#22262A] p-3 rounded-lg shadow-2xl">
-                            {' '}
+                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-lg shadow-2xl">
                             <FaReact size={32} color="white" />
                           </div>
-                          <div className="bg-[#22262A] p-3 rounded-lg shadow-2xl">
-                            {' '}
+                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-lg shadow-2xl">
                             <TbBrandTailwind size={32} color="white" />
                           </div>
-                          <div className="bg-[#22262A] p-3 rounded-lg shadow-2xl">
-                            {' '}
+                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-lg shadow-2xl">
                             <IoLogoJavascript size={32} color="white" />
                           </div>
                         </div>
@@ -97,15 +87,14 @@ const AboutMe = () => {
                 </div>
               </div>
             </Col>
-            <Col lg={10}>
-              <div className="flex justify-end">
-                <div className="bg-[#22262A] h-[68vh] w-[28vw] mt-36 image_background shadow-2xl rounded-md flex items-center justify-center">
+            <Col xs={24} sm={24} md={24} lg={10} offset={{ 90: 60 }}>
+              <div className="flex justify-center items-center lg:justify-end mt-24">
+                <div className="bg-[#22262A] md:h-[68vh] md:w-[28vw] md:mt-36 image_background shadow-2xl rounded-md flex items-center justify-center">
                   <img
                     src={
                       'https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png'
                     }
                     alt=""
-                    className=" absolute mt-[-50px] h-[670px] w-[100%] object-contain"
                   />
                 </div>
               </div>
