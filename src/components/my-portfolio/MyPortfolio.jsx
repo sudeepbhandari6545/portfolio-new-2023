@@ -7,17 +7,17 @@ const MyPortfolio = () => {
   return (
     <>
       <div className="bg-[#212428] px-5 overflow-hidden">
-        <div className="max-w-[100rem] mx-auto">
-          <div className="border-t-2 my-24"></div>
-          <h1 className="text-sm text-[#f9004d] text-center pt-8">
+        <div className="max-w-[90rem] mx-auto">
+          <div className="border-t-[1px] border-[#ff014f]  my-24"></div>
+          <h1 className="text-xs md:text-sm text-[#f9004d] text-center pt-8">
             VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
           </h1>
           <div>
-            <h1 className="text-6xl uppercase font-bold text-white pt-3 flex justify-center">
+            <h1 className="text-3xl md:text-6xl uppercase font-bold text-white pt-3 flex justify-center">
               My Portfolio
             </h1>
           </div>
-          <div className="pt-10">
+          <div className="">
             <Row gutter={24}>
               {allPortfolio &&
                 allPortfolio.map((item) => {

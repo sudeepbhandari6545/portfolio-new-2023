@@ -14,7 +14,7 @@ const AboutMe = () => {
           <Row gutter={6}>
             <Col xs={24} sm={24} md={24} lg={14}>
               <div>
-                <div className="">
+                <div className="lg:pt-44">
                   <h1 className=" uppercase text-[#c4cfde] text-sm font-medium">
                     WELCOME TO MY WORLD
                   </h1>
@@ -88,7 +88,7 @@ const AboutMe = () => {
               </div>
             </Col>
             <Col xs={24} sm={24} md={24} lg={10} offset={{ 90: 60 }}>
-              <div className="flex justify-center items-center lg:justify-end mt-24">
+              <div className="flex justify-center items-center lg:justify-end mt-24 lg:mt-0">
                 <div className="bg-[#22262A] md:h-[68vh] md:w-[28vw] md:mt-36 image_background shadow-2xl rounded-md flex items-center justify-center">
                   <img
                     src={

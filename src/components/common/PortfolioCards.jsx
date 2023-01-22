@@ -15,12 +15,14 @@ const PortfolioCards = ({ title }) => {
                 'https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg'
               }
               alt=""
+              className="scale-105 hover:scale-95 duration-1000"
             />
           </div>
         }
       >
         <div>
-          <h1 className="text-[23px] font-bold text-[#c4cfde] hover:text-red-500">
+          <div className="flex items-center gap-3 mt-[-10px]"></div>
+          <h1 className="text-[23px] font-bold text-[#c4cfde] hover:text-red-500 pt-5 hover:animate-pulse">
             {title}
           </h1>
         </div>
