@@ -12,7 +12,7 @@ const FeatureCards = ({ title, icon, detail }) => {
         >
           <div>
             <div className="pb-5">
-              <img src={icon} alt="" width={80} />
+              <img src={icon} alt="" width={50} />
             </div>
             <h1 className="text-2xl text-[#c4cfde] font-bold capitalize">
               {title}

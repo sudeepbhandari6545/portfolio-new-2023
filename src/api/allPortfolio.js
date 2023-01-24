@@ -1,14 +1,19 @@
 export const allPortfolio = [
   {
     id: '1',
-    title: 'Kistabandi Ecommerce',
+    title: 'Kistabandi Ecommerce Site',
+    image: 'assets/kistabands.png',
+    path: 'https://www.kistabandi.com',
   },
   {
     id: '2',
-    title: 'dynoAcademy',
+    title: 'dynoAcademy Learning Platform',
+    image: 'assets/kistabands.png',
+    path: 'https://dynoacademy.com',
   },
   {
     id: '2',
-    title: 'other',
+    title: 'Comming Soon',
+    image: 'assets/kistabands.png',
   },
 ]

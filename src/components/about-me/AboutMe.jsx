@@ -14,7 +14,7 @@ const AboutMe = () => {
           <Row gutter={6}>
             <Col xs={24} sm={24} md={24} lg={14}>
               <div>
-                <div className="lg:pt-44">
+                <div className="lg:pt-32">
                   <h1 className=" uppercase text-[#c4cfde] text-sm font-medium">
                     WELCOME TO MY WORLD
                   </h1>

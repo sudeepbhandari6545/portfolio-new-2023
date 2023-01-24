@@ -1,36 +1,37 @@
 import { Tabs } from 'antd'
 import React from 'react'
+import Education from '../all-tabs-components/Education'
+import Skills from '../all-tabs-components/Skills'
 
 const MyTabs = () => {
   return (
     <>
       <Tabs
         centered
-        tabBarGutter={100}
         defaultActiveKey="1"
         size="large"
         tabBarStyle={{ fontWeight: 'bold' }}
         className="my_tabs"
         items={[
           {
-            label: `Course Details`,
+            label: `Education`,
             key: '1',
-            children: 'sudeep 1',
+            children: <Education />,
           },
           {
-            label: `Syllabus`,
+            label: `Professional Skills`,
             key: '2',
-            children: 'sudeep2',
+            children: <Skills />,
           },
 
           {
-            label: `Q&A`,
+            label: `Experience`,
             key: '3',
             children: 'sudeep 3',
           },
 
           {
-            label: `Reviews`,
+            label: `CV`,
             key: '4',
             children: 'sudeep4',
           },
