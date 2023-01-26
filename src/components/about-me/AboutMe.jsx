@@ -9,23 +9,23 @@ import Typed from 'react-typed'
 const AboutMe = () => {
   return (
     <>
-      <div className="bg-[#212428] py-6 px-5 overflow-hidden">
+      <div className="bg-[#212428] py-5 px-5 overflow-hidden">
         <div className="max-w-[100rem] mx-auto">
-          <Row gutter={6}>
+          <Row gutter={6} className="flex items-center">
             <Col xs={24} sm={24} md={24} lg={14}>
               <div>
-                <div className="lg:pt-32">
+                <div className="lg:pt-24">
                   <h1 className=" uppercase text-[#c4cfde] text-sm font-medium">
                     WELCOME TO MY WORLD
                   </h1>
                   <h1 className="text-xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-white pt-5">
-                    Hi, I’m
+                    Hi, I’m{' '}
                     <span className="text-[#ff014f]">Sudeep Bhandari</span>
                   </h1>
                   <div className="text-xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-white pt-5">
                     a{' '}
                     <Typed
-                      className="text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold "
+                      className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white font-bold "
                       strings={['Front End Developer.', 'React Js Developer.']}
                       typeSpeed={24}
                       backSpeed={50}
@@ -47,18 +47,30 @@ const AboutMe = () => {
                           Find with me
                         </h1>
                         <div className="pt-2 flex items-center gap-5">
-                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-xl shadow-2xl">
-                            <a href="/">
+                          <div className="bg-[#343a40] p-3 rounded-xl shadow-2xl">
+                            <a
+                              href="https://www.facebook.com/sudeep.bhandari.1004"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <FaFacebookF size={32} color="white" />
                             </a>
                           </div>
-                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-xl shadow-2xl">
-                            <a href="/">
+                          <div className="bg-[#343a40] p-3 rounded-xl shadow-2xl">
+                            <a
+                              href="https://github.com/sudeepbhandari6545"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <AiFillGithub size={32} color="white" />
                             </a>
                           </div>
-                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-xl shadow-2xl">
-                            <a href="/">
+                          <div className="bg-[#343a40] p-3 rounded-xl shadow-2xl">
+                            <a
+                              href="https://www.linkedin.com/in/sudeep-bhandari-a6b507213"
+                              target="_blank"
+                              rel="noreferrer"
+                            >
                               <AiFillLinkedin size={32} color="white" />
                             </a>
                           </div>
@@ -71,13 +83,13 @@ const AboutMe = () => {
                           Best Skill on
                         </h1>
                         <div className="pt-2 flex items-center gap-5">
-                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-lg shadow-2xl">
+                          <div className="bg-[#343a40] p-3 rounded-lg shadow-2xl">
                             <FaReact size={32} color="white" />
                           </div>
-                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-lg shadow-2xl">
+                          <div className="bg-[#343a40] p-3 rounded-lg shadow-2xl">
                             <TbBrandTailwind size={32} color="white" />
                           </div>
-                          <div className=" bg-gradient-to-r from-[#ff014f] to-violet-600 p-3 rounded-lg shadow-2xl">
+                          <div className="bg-[#343a40] p-3 rounded-lg shadow-2xl">
                             <IoLogoJavascript size={32} color="white" />
                           </div>
                         </div>
@@ -88,13 +100,14 @@ const AboutMe = () => {
               </div>
             </Col>
             <Col xs={24} sm={24} md={24} lg={10} offset={{ 90: 60 }}>
-              <div className="flex justify-center items-center lg:justify-end mt-24 lg:mt-0">
-                <div className="bg-[#22262A] md:h-[68vh] md:w-[28vw] md:mt-36 image_background shadow-2xl rounded-md flex items-center justify-center">
+              <div className="flex justify-center items-center lg:justify-end pt-24 lg:pt-0">
+                <div className="bg-[#22262A]  md:h-[70vh] md:w-[25vw] md:mt-[105px] image_background shadow-2xl rounded-md flex items-center justify-center">
                   <img
                     src={
-                      'https://rainbowit.net/themes/inbio/wp-content/uploads/2021/08/banner-01.png'
+                      'https://cdn.discordapp.com/attachments/1011606648105746473/1068087132448624700/sudeep_bhandari.png'
                     }
                     alt=""
+                    className="w-[300px] lg:w-[100%] relative"
                   />
                 </div>
               </div>

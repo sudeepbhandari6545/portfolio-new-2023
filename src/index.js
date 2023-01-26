@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import 'react-vertical-timeline-component/style.min.css'
 import './index.css'
+
 import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

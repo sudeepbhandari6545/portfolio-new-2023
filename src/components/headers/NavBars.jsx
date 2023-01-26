@@ -42,7 +42,7 @@ const NavBars = () => {
                   return (
                     <>
                       <h1 className="text-[#c4cfde] capitalize font-medium text-sm cursor-pointer hover:text-[#FF014F]">
-                        {item.title.toUpperCase()}
+                        <a href={item.path}> {item.title.toUpperCase()}</a>
                       </h1>
                     </>
                   )
@@ -72,6 +72,7 @@ const NavBars = () => {
           height: '90vh',
           borderRadius: '8px',
         }}
+        destroyOnClose
       >
         <div className="pb-6">
           {navLinks &&
@@ -79,7 +80,10 @@ const NavBars = () => {
               return (
                 <>
                   <h1 className="text-[#c4cfde] text-[14px] uppercase py-3 hover:text-[#FF014F]">
-                    {item.title}
+                    <a href={item.path} onClick={() => setSideBar(false)}>
+                      {' '}
+                      {item.title}
+                    </a>
                   </h1>
                 </>
               )
@@ -89,18 +93,30 @@ const NavBars = () => {
         <h1 className="text-white uppercase py-2 mt-5">Find with me</h1>
         <div className="pt-5 flex items-center gap-4">
           <div className="bg-[#22262A] p-3 rounded-lg shadow-lg">
-            <a href="/">
-              <FaFacebookF size={20} color="white" />
+            <a
+              href="https://www.facebook.com/sudeep.bhandari.1004"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebookF size={28} color="white" />
             </a>
           </div>
           <div className="bg-[#22262A] p-3 rounded-lg shadow-lg">
-            <a href="/">
-              <AiFillGithub size={20} color="white" />
+            <a
+              href="https://github.com/sudeepbhandari6545"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillGithub size={28} color="white" />
             </a>
           </div>
           <div className="bg-[#22262A] p-3 rounded-lg shadow-lg">
-            <a href="/">
-              <AiFillLinkedin size={20} color="white" />
+            <a
+              href="https://www.linkedin.com/in/sudeep-bhandari-a6b507213"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillLinkedin size={28} color="white" />
             </a>
           </div>
         </div>

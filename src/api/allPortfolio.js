@@ -8,12 +8,13 @@ export const allPortfolio = [
   {
     id: '2',
     title: 'dynoAcademy Learning Platform',
-    image: 'assets/kistabands.png',
+    image: 'assets/dynoacademy.png',
     path: 'https://dynoacademy.com',
   },
   {
-    id: '2',
-    title: 'Comming Soon',
-    image: 'assets/kistabands.png',
+    id: '3',
+    title: 'Airbnb Clone Reactjs/Nextjs',
+    image: 'assets/airbnb1.png',
+    path: 'https://airbnb-clone-hulu-app.vercel.app/',
   },
 ]

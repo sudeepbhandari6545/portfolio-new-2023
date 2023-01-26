@@ -6,8 +6,8 @@ import { allPortfolio } from '../../api/allPortfolio'
 const MyPortfolio = () => {
   return (
     <>
-      <div className="bg-[#212428] px-5 overflow-hidden">
-        <div className="max-w-[85rem] mx-auto">
+      <div id="portfolio" className="bg-[#212428] px-5 overflow-hidden">
+        <div className="max-w-[100rem] mx-auto">
           <div className="border-t-[1px] border-[#ff014f]  my-24"></div>
           <h1 className="text-xs md:text-sm text-[#f9004d] text-center pt-8">
             VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
@@ -17,13 +17,13 @@ const MyPortfolio = () => {
               My Portfolio
             </h1>
           </div>
-          <div className="">
+          <div className="pt-12">
             <Row gutter={24}>
               {allPortfolio &&
                 allPortfolio.map((item) => {
                   return (
                     <>
-                      <Col lg={8} className="my-8">
+                      <Col lg={8}>
                         <PortfolioCards
                           title={item.title}
                           image={item.image}

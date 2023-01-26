@@ -7,9 +7,9 @@ const PortfolioCards = ({ title, image, path }) => {
     <>
       <a href={path} rel="noreferrer" target="_blank">
         <Card
-          style={{ width: 'auto' }}
+          style={{ width: 'auto', margin: '20px' }}
           size="small"
-          className="bg-[#22262A] border-0 shadow-xl  hover:bg-[#22262c] m-3"
+          className="bg-[#22262A] border-0 shadow-xl  hover:bg-[#22262c] card_image_portffolio"
           hoverable
           cover={
             <div className="">
@@ -17,15 +17,15 @@ const PortfolioCards = ({ title, image, path }) => {
                 <img
                   src={image}
                   alt=""
-                  className=" scale-95 hover:scale-90 duration-1000 card_image_portffolio w-[100%]"
+                  className="scale-100 hover:scale-90 duration-1000 card_image_portffolio w-[100%]"
                 />
               </div>
             </div>
           }
         >
-          <div className="px-6 mt-[-25px]">
+          <div className="px-8 mt-[-35px] pb-6">
             <div className="flex items-center gap-3 truncate ... overflow-hidden ">
-              <h1 className="text-sm md:text-lg font-bold text-[#c4cfde] hover:text-red-500 pt-5 hover:animate-pulse flex items-center gap-2 ">
+              <h1 className="text-sm md:text-xl font-bold text-[#c4cfde] hover:text-red-500 pt-5 hover:animate-pulse flex items-center gap-2 ">
                 <FaHandPointRight />
                 {title}
               </h1>

@@ -59,12 +59,7 @@ const Skills = () => {
           </h1>
         </div>
         <div className="mt-12">
-          <Skillbar
-            skills={skills}
-            height={35}
-            animationDelay={1000}
-            offset={`45px`}
-          />
+          <Skillbar skills={skills} height={40} animationDelay={100} />
         </div>
       </div>
     </>

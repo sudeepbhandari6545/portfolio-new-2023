@@ -6,21 +6,21 @@ import { features } from '../../api/features'
 const Features = () => {
   return (
     <>
-      <div className="bg-[#212428] px-5 overflow-hidden">
+      <div id="feature" className="bg-[#212428] px-5 overflow-hidden">
         <div className="max-w-[100rem] mx-auto">
           <div className="border-t-[1px] border-[#ff014f]  my-24"></div>
           <h1 className="text-lg font-medium text-[#ff014f]">Features</h1>
-          <h1 className="text-5xl md:text-6xl uppercase font-bold text-white pt-3">
+          <h1 className="text-4xl md:text-6xl uppercase font-bold text-white pt-3">
             What I Do
           </h1>
-          <div className="pt-10">
+          <div className="pt-8">
             <Row gutter={24}>
               {features &&
                 features.map((item) => {
                   console.log(item)
                   return (
                     <>
-                      <Col xs={24} sm={24} lg={8} className="my-8">
+                      <Col xs={24} sm={24} lg={8}>
                         <FeatureCards
                           title={item.title}
                           icon={item.icon}
