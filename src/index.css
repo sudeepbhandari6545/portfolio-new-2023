@@ -94,7 +94,7 @@ input {
   opacity: 1;
 }
 .images {
-  object-fit: cover;
+  object-fit: cover !important;
   object-position: center;
 }
 .ant-input {
