@@ -93,6 +93,10 @@ input {
 .scrollTop:hover {
   opacity: 1;
 }
+.images {
+  object-fit: cover;
+  object-position: center;
+}
 .ant-input {
   background-color: #191b1e !important;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,

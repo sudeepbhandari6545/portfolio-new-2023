@@ -101,13 +101,13 @@ const AboutMe = () => {
             </Col>
             <Col xs={24} sm={24} md={24} lg={10} offset={{ 90: 60 }}>
               <div className="flex justify-center items-center lg:justify-end pt-24 lg:pt-0">
-                <div className="bg-[#22262A]  md:h-[70vh] md:w-[25vw] md:mt-[105px] image_background shadow-2xl rounded-md flex items-center justify-center">
+                <div className="bg-[#22262A]  md:h-[68vh] md:w-[28vw] md:mt-[10px] image_background shadow-2xl rounded-md flex items-center justify-center">
                   <img
                     src={
-                      'https://cdn.discordapp.com/attachments/1011606648105746473/1068087132448624700/sudeep_bhandari.png'
+                      'https://media.discordapp.net/attachments/1011606648105746473/1068129973094850580/sudeep_bhandarisa.png?width=450&height=617'
                     }
                     alt=""
-                    className="w-[300px] lg:w-[100%] relative"
+                    className="w-[300px] lg:w-[100%] relative mt-[-120px] md:h-[75vh] images"
                   />
                 </div>
               </div>
