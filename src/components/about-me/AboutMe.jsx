@@ -100,7 +100,7 @@ const AboutMe = () => {
               </div>
             </Col>
             <Col xs={24} sm={24} md={24} lg={10} offset={{ 90: 60 }}>
-              <div className="flex justify-center items-center lg:justify-end pt-24 lg:pt-0">
+              <div className="flex justify-center items-center lg:justify-end pt-28 ">
                 <div className="bg-[#22262A]  md:h-[68vh] md:w-[28vw] md:mt-[10px] image_background shadow-2xl rounded-md flex items-center justify-center">
                   <img
                     src={
