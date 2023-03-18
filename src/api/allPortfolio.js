@@ -17,4 +17,10 @@ export const allPortfolio = [
     image: 'assets/airbnb1.png',
     path: 'https://airbnb-clone-hulu-app.vercel.app/',
   },
+  {
+    id: '4',
+    title: 'React Admin Dashboard',
+    image: 'assets/admin_dashboard.png',
+    path: 'https://rainbow-cassata-71b6bf.netlify.app/',
+  },
 ]
