@@ -21,6 +21,6 @@ export const allPortfolio = [
     id: '4',
     title: 'React Admin Dashboard',
     image: 'assets/admin_dashboard.png',
-    path: 'https://rainbow-cassata-71b6bf.netlify.app/',
+    path: 'https://phenomenal-mermaid-752e48.netlify.app/',
   },
 ]
